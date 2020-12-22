@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<style>
+    body{
+        background: url(https://wallpaperaccess.com/full/124400.jpg) no-repeat;
+        background-size: cover;
+    }
+</style>
+<body>
+    <div class="regform"><h1>Project Submission Form</h1></div>
+    <div class="main">
+        <form action="form.php" method="POST">
+            <div id="name">
+                <h2 class="name">Name</h2>
+                <select class="option1" name="salutation">
+                    <option disabled="disabled" selected="selected">Sel</option> 
+                    <option>Mr.</option>
+                    <option>Ms.</option>    
+                </select>
+                <input class="fullname" type="text" name="full_name" placeholder="Enter Full Name" required><br>
+            </div>
+
+            <h2 class="name">USN</h2>
+            <input class="usn" type="text" name="usn_no" placeholder="Enter USN" required>
+
+            <h2 class="name">Email</h2>
+            <input class="usn" type="text" name="email" placeholder="Enter Email" required>
+
+            <h2 class="name">Department</h2>
+            <label class="option">Branch</label>
+            <select class="option" name="branch">
+                <option disabled="disabled" selected="selected">Select Branch</option> 
+                <option> ARCH </option>
+                <option> CSE </option>
+                <option> CIV </option>
+                <option> ECE </option>
+                <option> EEE </option>
+                <option> ISE </option>
+                <option> ME </option>
+            </select>
+
+            <label class="option2">Division</label>
+            <select class="option2" name="division">
+                <option disabled="disabled" selected="selected">Select Div</option> 
+                <option> A </option>
+                <option> B </option>
+                <option> C </option>
+                <option> D </option>
+            </select>
+            
+            <h2 class="name">Project</h2>
+            <label class="projectnamelabel">Title</label>
+            <input class="projectname" type="text" name="project_name" placeholder="Enter Project Title" required><br><br>
+            <label class="projectnamelabel">Guide</label>
+            <input class="projectguide" type="text" name="project_guide" placeholder="Enter Project Guide Name"><br><br>           
+            <label class="projectnamelabel">Start Date</label>
+            <input class="start" type="date" name="start_date">
+            <label class="end">End Date</label>
+            <input class="end" type="date" name="end_date"><br><br>
+            <label class="projectnamelabel">Expenditure</label>
+            <input class="projectexp" type="text" name="project_exp" placeholder="Total Expenditure"><br><br>
+            <label class="projectnamelabel">Link to Project</label>
+            <input class="projectlink" type="text" name="project_link" placeholder="Enter Link to project"><br><br>
+
+            <a href="form.html"><input class="last" type="reset" value="Reset the form"></a>
+            <input class="last" type="submit" name="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

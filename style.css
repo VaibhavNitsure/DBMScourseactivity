@@ -1,0 +1,19 @@
+body{
+		background: url(https://wallpaperaccess.com/full/124400.jpg) no-repeat;
+		background-size: cover;
+	}
+#frm
+{
+	width:  20%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: transparent;
+	padding: 50px;
+}
+#btn{
+	font-family: monospace;
+	color: #fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left: 69%;
+}

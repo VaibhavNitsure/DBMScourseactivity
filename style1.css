@@ -1,0 +1,175 @@
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-image: url('bck.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 40px;
+}
+
+.regform{
+    width:800px;
+    background-color: rgb(10,10,50,0.9);
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.main{
+    background-color: rgb(10,10,50,0.4);
+    width: 800px;
+    margin: auto;
+    color: #ffffff;
+}
+
+form{
+    padding:10px;
+}
+
+#name{
+    width:150%;
+    height:30px;
+}
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width:125px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 700;
+}
+.fullname{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.option1{
+    position: relative;
+    width:60px;
+    height:35px;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.usn{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.option{
+    position: relative;
+    width:135px;
+    height:35px;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.option2{
+    position: relative;
+    width:110px;
+    height:35px;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.projectname{
+    position: relative;
+    width:200px;
+    height:35px;
+    left:274px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.projectnamelabel{
+    position: relative;
+    width:135px;
+    height:35px;
+    left:200px;
+    top:-37px;
+}
+.projectguide{
+    position: relative;
+    width:200px;
+    height:35px;
+    left:260px;
+    top:-37px;
+    line-height: 35px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.Startdatelabel{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+}
+.start{
+    position: relative;
+    width:142px;
+    height:35px;
+    left:230px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.end{
+    position: relative;
+    width:142px;
+    height:35px;
+    left:250px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.projectexp{
+    position: relative;
+    width:135px;
+    height:35px;
+    left:217px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
+.projectlink{
+    position: relative;
+    width:400px;
+    height:35px;
+    left:200px;
+    top:-37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 5px;
+    font-size: 16px;
+}
